@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #register{
+        margin-left: 700px;
+      }
+      h2{
+        font-size: 100px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+        font-style: italic;
+        color:#FF8800;
+        }  
+           span{
+             color: red;
+           }
+           body{
+        background-image: url(http://www.brandgradients.com/img/backgrounds/brand-gradients-hex-colors-background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+      }
+      label{
+        font-style: italic;
+        color:#263238;
+      }
+    </style>
+</head>
+<body>
+    <div id="register" class="container ">
+        <h2>register</h2>
+        <form>
+          <div class="form-group">
+            <label>First Name:</label>
+            <input type="text" class="form-control col-2"/>
+          </div>
+  
+          <div class="form-group">
+            <label>last Name:</label>
+            <input type="text" class="form-control col-2"/>
+          </div>
+          <div class="form-group">
+            <label>brithdate:</label>
+            <input type="date" class="form-control col-2"/>
+             </div>
+            <div class="form-group">
+              <label for="radio">Gender:</label>
+              <br>
+              <input type="radio" placeholder="male" value="male" id="male"/>
+        <label for="male">Male</label>
+        <input type="radio" placeholder="female" value="female" id="female"/>
+        <label for="female">Female</label>
+            </div>
+            <div class="form-group">
+              <label>Email: <span>*</span></label>
+              <input type="email" class="form-control col-2" placeholder="Email"/>
+            </div>
+            <div class="form-group">
+              <label>Phone Number:</label>
+              <input type="text" class="form-control col-2"/>
+              </div>
+              <div class="form-group">
+                <label>Addres:</label>
+                <input type="text" class="form-control col-2"/>
+                </div>
+                <div class="form-group">
+                  <label>City:</label>
+                  <input type="text" class="form-control col-2"/>
+                  </div>
+                  <div class="form-group col-2">
+                    <label>Country <span>*</span></label>
+                    <select class="form-control">
+                      <option>Israel</option>
+                      <option>France</option>
+                      <option>Italy</option>
+                      <option>United States</option>
+                      <option>England</option>
+                      <option>India</option>
+                      <option>Egypt</option>
+                      <option>Japan</option>
+                      <option>Netherlands</option>
+                      <option>United Kingdom</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Zip:</label>
+                    <input type="text" class="form-control col-2"/>
+                    <div class="form-group">
+                      <label>Password <span>*</span></label>
+                      <input type="password" class="form-control col-2" placeholder="Enter here" />
+                    </div>
+                    <div class="form-group">
+                      <label>Repeat Password <span>*</span></label>
+                      <input type="password" class="form-control col-2" placeholder="Enter here" />
+                    </div>
+                    <div class="form-group">
+                      <label>User Name: <span>*</span></label>
+                      <input type="text" class="form-control col-2"/>
+                      </div>
+                    <div class="form-group">
+                      <input type="checkbox" aria-label="Checkbox for following text input">
+                      <label for="chekbox">i accept the terms of use & privay policy</label>
+                    </div>
+                    <div class="form-group">
+                      
+                      <input type="submit" class="btn btn-success col-4" value="register">
+                      
+                    </div>
+         
+            
+          </div>      
+        </form>
+  
+  
+  
+</body>
+</html>
